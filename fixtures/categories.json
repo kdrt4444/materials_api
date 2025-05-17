@@ -1,0 +1,183 @@
+[
+  {
+    "fields": {
+      "name": "Металлы",
+      "code": "MET",
+      "parent": null,
+      "lft": 1,
+      "rght": 14,
+      "tree_id": 1,
+      "level": 0
+    },
+    "model": "materials.category",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Цветные металлы",
+      "code": "NONFERROUS",
+      "parent": 8,
+      "lft": 2,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+    },
+    "model": "materials.category",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "code": "ALU",
+      "level": 2,
+      "lft": 3,
+      "name": "Алюминий",
+      "parent": 9,
+      "rght": 4,
+      "tree_id": 1
+    },
+    "model": "materials.category",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Медь",
+      "code": "CU",
+      "parent": 9,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "Черные металлы",
+      "code": "FERROUS",
+      "parent": 8,
+      "lft": 8,
+      "rght": 13,
+      "tree_id": 1,
+      "level": 1
+    },
+    "model": "materials.category",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "name": "Сталь",
+      "code": "STEEL",
+      "parent": 12,
+      "lft": 9,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "name": "Чугун",
+      "code": "CASTIRON",
+      "parent": 12,
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "name": "Пластик",
+      "code": "PLAST",
+      "parent": null,
+      "lft": 1,
+      "rght": 14,
+      "tree_id": 2,
+      "level": 0
+    },
+    "model": "materials.category",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "name": "Термопласты",
+      "code": "THERMO",
+      "parent": 15,
+      "lft": 2,
+      "rght": 7,
+      "tree_id": 2,
+      "level": 1
+    },
+    "model": "materials.category",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "name": "Полиэтилен",
+      "code": "PE",
+      "parent": 16,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 2,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "name": "Полипропилен",
+      "code": "PP",
+      "parent": 16,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "name": "Термореактивные пластики",
+      "code": "THERMOSET",
+      "parent": 15,
+      "lft": 8,
+      "rght": 13,
+      "tree_id": 2,
+      "level": 1
+    },
+    "model": "materials.category",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "name": "Эпоксидные смолы",
+      "code": "EPOXY",
+      "parent": 19,
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 2,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "name": "Фенолформальдегид",
+      "code": "PHENOL",
+      "parent": 19,
+      "lft": 9,
+      "rght": 10,
+      "tree_id": 2,
+      "level": 2
+    },
+    "model": "materials.category",
+    "pk": 21
+  }]

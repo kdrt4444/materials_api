@@ -1,0 +1,13 @@
+__pycache__/
+
+.env
+
+.idea
+
+test.py
+
+docker/postgres_data/
+
+materials/migrations/*
+!materials/migrations/
+!materials/migrations/__init__.py
