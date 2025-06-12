@@ -15,8 +15,8 @@ API-сервис на Django + DRF для работы с иерархией к�
 - Загрузка материалов из Excel-файла:  
   `POST /api/materials/upload-excel/`
 
-- Работа с материалами (CRUD):  
-  `POST /api/materials/`, `PUT`, `DELETE`
+- Работа с категориями (CRUD):  
+  `POST /api/categories/`, `PUT`, `DELETE`
 
 - Работа с материалами (CRUD):  
   `GET /api/materials/`, `POST`, `PUT`, `DELETE`
