@@ -125,5 +125,4 @@ Content-Type: multipart/form-data
 
 ## Автор
 
-Создан в рамках тестового задания.  
 Контакт: `nikitazinovkin676@gmail.com`
